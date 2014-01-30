@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe Trip do
-  describe 'validations' do
+  describe 'Validations' do
   let(:trip) { FactoryGirl.build(:trip)}
   let(:blank) { ['', nil] }
 
